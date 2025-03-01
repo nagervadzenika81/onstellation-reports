@@ -6,6 +6,10 @@ from skyfield.data import hipparcos
 import os
 
 app = Flask(__name__)
+@app.route('/')
+def home():
+    return "Constellation Report API is running!"
+
 
 # Load astronomical data
 ts = load.timescale()
