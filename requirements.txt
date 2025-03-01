@@ -6,3 +6,4 @@ skyfield
 pillow
 gunicorn
 pandas
+requests
